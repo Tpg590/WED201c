@@ -1,0 +1,209 @@
+
+header{
+    background-color: #4cb050;
+    color: white;
+    padding: 5px 20px;
+    margin: -5px auto;
+    display: grid;
+    place-content: center;
+}
+
+
+header h1{
+    padding: 10px 20px;
+    margin: 15px auto;
+    font-family: sans-serif;
+    font-size: 25px;
+}
+
+body{
+    background-color: #f4f4f4;
+    height: auto;
+}
+header p{
+word-spacing: 1px;
+margin-top: -20px;
+margin-bottom: 20px;
+font-size: 12px;
+padding: 10px 20px;
+}
+nav{
+background-color: #333333;
+margin: -20px auto;
+display: flex;
+align-items: center;
+justify-content: center;
+}
+
+nav ul{
+    font-size: 15px;
+    list-style-type: none;
+    display: flex;
+    margin: 5px;
+    position: relative;
+}
+
+nav ul li{
+    padding: 10px 20px;
+}
+
+nav ul li a{
+    color: white;
+    font-size: 15px;
+    padding: 15px 15px;
+    border-radius: 5px;
+    font-family: monospace;
+    text-decoration: none;
+    
+}
+ul li a.active{
+    background-color: #f5d70c;
+    color: black;
+    font-family: monospace;
+}
+
+
+ul li a:hover ul li a{
+    background-color: #f5d70c;
+    font-family: monospace;
+}
+
+ul li a:hover{
+    color: black;
+    background-color: #f5d70c;
+    font-family: monospace;
+}
+
+main section.content{
+    text-align: center;
+    padding: 10px 100px;
+}
+
+
+main section.content table{
+   
+  
+   margin-left: 200px;
+}
+
+main section.content img{
+    width: 600px;
+}
+
+footer{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 15px;
+    text-align: center;
+
+    color: white;
+    background-color: #222222;
+}
+
+main section.content p a{
+    text-decoration: none;
+}
+
+main section.services{
+    display: flex;
+    align-items: cemter;
+    justify-content: center;
+    margin-bottom: 500px;
+    margin-top: 30px;
+    margin: center;
+    margin-left: 80px;
+    flex-wrap: wrap;
+
+}
+
+
+main section.services .container div{
+    display: grid;
+    grid-template-rows: 50px;
+    margin: auto;
+    margin-top: 25px;
+    padding: 5px 10px;
+    width: 300px;
+    height: 100px;
+    place-content: center;
+    color: #5db35a;
+    border-radius: 5px;
+    box-shadow: 1px 0px 5px black;
+}
+main section.services div{
+    margin: 50px;
+    padding: 10px 10px;
+    width: auto;
+    place-content: center;
+    color: #5db35a;
+    border-radius: 5px;
+    box-shadow: 1px 0px 5px black;
+    text-align: center;
+    font-size: 15px;
+}
+
+
+
+main section.services div p{
+    color: black;
+    text-align: center;
+    
+}
+
+main{
+height: auto;
+
+}
+
+
+main section.contact-form{
+
+    display: grid;
+    place-content: center;  
+    margin: 0 auto;
+    margin-top: 80px;
+    margin-bottom: 50px;
+    width: 400px;
+   height: 350px;
+   background-color: white;
+   border-radius: 5px;
+   box-shadow: 1px 0px 5px  grey;
+
+}
+
+main section.contact-form label{
+    display: grid;
+    margin: 0 auto;
+    font-size: 18px;
+    font-weight: bold;
+   
+}
+main section.contact-form input{
+    display: grid;
+    margin: 0 auto;
+   width: 360px;
+}
+
+main section.contact-form button{
+    width: 370px;
+    height: 30px;
+    display: grid;
+    color: white;
+    background-color: #4caf50;
+    place-content: center;
+    margin: 0 auto;
+    border-radius: 2px;
+}
+
+main section.contact-form textarea{
+    width: 360px;
+}
+
+main section.contact-form h2{
+text-align: center;
+display: grid;
+place-content: center;
+padding: 10px 10px;
+margin-top: -80px;
+}
